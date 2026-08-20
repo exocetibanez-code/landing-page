@@ -1,0 +1,17 @@
+/* 1. Reset basico y Tipografia */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+/* 2. Contenedor princiapl de la primera seccion */
+.hero-container {
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 16 px 160 px 48 px 160 px;
+}
