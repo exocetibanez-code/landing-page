@@ -13,5 +13,31 @@ body {
 .hero-container {
     background-color: #1f2937;
     color: #f9faf8;
-    padding: 16 px 160 px 48 px 160 px;
+    padding: 16px 160px 48px 160px;
+}
+
+/* 3. Header y Navegacion */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 48px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    gap: 24px;
+    list-style-type: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
 }
