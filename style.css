@@ -90,3 +90,39 @@ body {
     object-fit: cover;
 }
 
+/* 5. Information Section */
+.info-section {
+    padding: 48px 160px 112px 160px;
+    text-align: center;
+}
+
+.info-section h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    margin-bottom: 48px;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+
+.card {
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card p {
+    color: #4b5563;
+    font-size: 18px;
+}
